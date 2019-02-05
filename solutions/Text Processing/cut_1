@@ -1,0 +1,5 @@
+while read x
+do
+    echo $x | cut -b 3
+done
+echo $x | cut -b 3
