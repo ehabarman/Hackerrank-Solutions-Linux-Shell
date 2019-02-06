@@ -1,0 +1,5 @@
+while read x 
+do
+	echo $x | tr ' ' '\t' | cut -f 4 | tr '\t' ' ' 
+done
+
