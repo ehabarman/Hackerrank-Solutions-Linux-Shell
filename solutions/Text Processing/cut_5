@@ -1,0 +1,5 @@
+while read line 
+do
+    cut -f1-3 <<< "$line" 
+done
+
